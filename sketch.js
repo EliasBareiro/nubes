@@ -25,7 +25,7 @@ function preload(){
 
 
 function setup() {
-  createCanvas(600, 500);
+  createCanvas(displayWidth/2, displayHeight);
   frameRate(15);
   for(var i = 0; i < 10; i++){
     nubes[i] = new Nube();
