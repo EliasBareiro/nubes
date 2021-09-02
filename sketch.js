@@ -29,7 +29,8 @@ function preload(){
 
 
 function setup() {
-  createCanvas(displayWidth/2, displayHeight/*600, 500*/);
+  var canvas =  createCanvas(displayWidth/2, displayHeight/*600, 500*/);
+  canvas.parent('columna');
   frameRate(15);
   for(var i = 0; i < 10; i++){
     nubes[i] = new NubeR();
