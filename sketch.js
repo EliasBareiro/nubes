@@ -5,7 +5,7 @@ let cambiar = 0;
 let salio = false;
 let direccion = '';
 var booble={
-  x : 300,
+  x : width/2,
   y : 400,
   mov : 5
 };
